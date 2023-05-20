@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Key Learnings
+    - Next JS
+    - Introduction to Frontend Mentor challenges
+    - Tailwind CSS
+    - Tailwind CSS color palettes extension
+    - next/font to use custom fonts with tailwind variables
+    - Using custom favicon in next js app router
+
 ## Getting Started
 
 First, run the development server:
