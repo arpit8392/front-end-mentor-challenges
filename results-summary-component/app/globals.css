@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-gradient {
+	@apply bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue;
+}
+
+.circle-gradient {
+	@apply bg-gradient-to-b from-violetBlue from-100% to-persianBlue to-0%;
+}
+
+@layer base {
+	:root {
+		--color-light-red: 0 100% 67%;
+		--color-orange-yellow: 39 100% 56%;
+		--color-green-teal: 166 100% 37%;
+		--color-cobalt-blue: 234 85% 45%;
+		--color-light-slate-blue: 252 100% 67%;
+		--color-light-royal-blue: 241 81% 54%;
+		--color-violet-blue: 256 71% 46%;
+		--color-persian-blue: 241 71% 46%;
+		--color-pale-blue: 221 100% 89%;
+		--color-light-lavender: 241 100% 89%;
+		--color-dark-gray-blue: 223 30% 27%;
+	}
+}
