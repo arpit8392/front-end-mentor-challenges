@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 type Props = {
 	icon: string
 	score: number
@@ -26,8 +28,14 @@ const SummaryItem = ({ icon, score, category, color }: Props) => {
 				colorPallette[color as keyof colors]
 			}`}
 		>
-			<div className='flex space-x-3'>
-				<img src={icon} alt='Icon' className='w-4' />
+			<div className='relative flex space-x-3'>
+				<Image
+					src={icon}
+					alt={`${category} Icon`}
+					width={16}
+					height={16}
+				/>
+
 				<p className='tracking-wide'>{category}</p>
 			</div>
 			<p className='text-darkGrayBlue/50'>
