@@ -7,7 +7,7 @@
 }
 
 .circle-gradient {
-	@apply bg-gradient-to-b from-violetBlue from-100% to-persianBlue to-0%;
+	@apply bg-gradient-to-b from-violetBlue;
 }
 
 @layer base {
